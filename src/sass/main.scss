@@ -1,0 +1,77 @@
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  background-image: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.input {
+  font-size: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgba(209, 230, 236, 0.3);
+  height: 50px;
+  width: 300px;
+  text-align: center;
+}
+.countries {
+  margin: 20px;
+  justify-content: center;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.country {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  text-shadow: 3px 5px 6px rgba(209, 230, 236, 0.5);
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card-img {
+  width: 250px;
+}
+.card-info {
+  margin-right: 50px;
+  color: #fff;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.country-name {
+  padding-bottom: 20px;
+}
+.countries-item {
+  color: #fff;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
